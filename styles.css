@@ -17,6 +17,7 @@ body {
      font-family: calibri; 
      padding-right: 15px;
      padding-left: 15px;
+     height: 90px;
 }
 .navdiv{
     display: flex;
@@ -26,9 +27,11 @@ body {
 }
 
 .logo a{
-    font-size: 35px; 
+    font-size: 40px; 
     font-weight: 600;
-     color: #522352;
+    color: #522352;
+    position: relative;
+    top:15px;
 }
 li{
     list-style: none;
@@ -39,6 +42,8 @@ li a{
     font-size: 18px; 
     font-weight: bold; 
     margin-right: 25px;
+    position: relative;
+    top:15px;
 }
 
 .login-container {
@@ -49,6 +54,12 @@ li a{
     width: 300px;
     margin: auto;
     margin-top: 20px;
+}
+section h2{
+    color: #c44f66;
+    font-weight:bolder;
+    font-size:30px;
+    text-decoration:underline;
 }
 
 form {
@@ -65,23 +76,28 @@ input {
     margin-bottom: 16px;
 }
 
-button {
+#but{
     background-color: #4caf50;
     color: #fff;
     padding: 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    width:300px;
+}
+#but2{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    top:20px;
+
 }
 
 button:hover {
     background-color: #45a049;
 }
 
-footer {
-    background-color:#a0d5de;
-    color: black;
-    text-align: center;
-    padding: 1em;
-    margin-top: auto;
-}

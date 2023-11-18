@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Perform authentication logic here (e.g., check credentials against a database)
         if (username === 'demo' && password === 'password') {
-            alert('Login successful!');
+            //alert('Login successful!');
             // Redirect to another page or perform additional actions
         } else {
             alert('Login failed. Please check your credentials.');
